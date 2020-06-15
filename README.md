@@ -7,12 +7,12 @@
     limites e imprima-os no video. Utilize variaveis globais para os valores
     positivos e locais para os negativos.
 
-2 - Escreva um programa que receba dados via teclado para variaveis do tipo short,
+* 2 - Escreva um programa que receba dados via teclado para variaveis do tipo short,
     long, int, float, double e um char e imprima-os no video no seguinte
     formato:
-
-             10        20        30        40        50        60
-     12345678901234567890123456789012345678901234567890123456789012345
+    
+              10        20        30        40        50        60
+      12345678901234567890123456789012345678901234567890123456789012345
          short               long                int
                    float               double              char 
 
@@ -71,12 +71,12 @@
       para o inteiro imediatamente superior
 
 * 6 - Um posto está vendendo combustíveis com a seguinte tabela de descontos:
-     Álcool
-         até 20 litros, desconto de 3% por litro
-         acima de 20 litros, desconto de 5% por litro
-     Gasolina
-          até 20 litros, desconto de 4% por litro
-          acima de 20 litros, desconto de 6% por litro
+     1. Álcool.
+         - até 20 litros, desconto de 3% por litro
+         - acima de 20 litros, desconto de 5% por litro
+     2. Gasolina.
+          - até 20 litros, desconto de 4% por litro
+          - acima de 20 litros, desconto de 6% por litro
      Escreva um programa que leia o número de litros vendidos e o tipo de
      combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e
      imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da 
@@ -85,20 +85,21 @@
 * 7 - Leia a distancia em Km e a quantidade de litros de gasolina consumidos
     por um carro em um percurso, calcule o consumo em Km/l e escreva uma
     mensagem de acordo com a tabela abaixo:
-    CONSUMO (Km/l) MENSAGEM
-    menor que 8    Venda o carro!
-    entre 8 e 14   Economico!
-    maior que 14   Super economico!
+    * **CONSUMO (Km/l) MENSAGEM.**
+    * menor que 8    Venda o carro!
+    * entre 8 e 14   Economico!
+    * maior que 14   Super economico!
 
 * 8 - Escreva um programa que calcule o IMC de uma pessoa e mostre sua classificacao
     conforme tabela abaixo:
-       IMC             Classificacao
+    
+       IMC             Classificacao.
        18,5            Abaixo do Peso
        18,6 - 24,9     Saudavel
        25,0 - 29,9     Peso em excesso
-       30,0 - 34,9     Obesidade Grau I
-       35,0 - 39,9     Obesidade Grau II(severa)
-       40,0            Obesidade Grau III(morbida)
+       30,0 - 34,9     Obesidade Grau 1
+       35,0 - 39,9     Obesidade Grau 2
+       40,0            Obesidade Grau 3
        
 ---
 
@@ -125,14 +126,16 @@
 
 * 6 - Receba 2 numeros inteiros via teclado. Compare utilizando as expressoes
     abaixo. Imprima no video o resultado (se verdadeiro = 1 se falso = 0)
-    a e b e' recebido via teclado para cada expressao
+    a e b e' recebido via teclado para cada expressao:
+    
          a >= 120 && b < 240    
          a != 60  || b == 120
         (a*25) == 100 && (b+10) >= 100
         ((a + 300)/5) >= 100 || (b - 200) <= 200
 
 * 7 - Escreva um programa que tenha o menu abaixo. F
-        1 - transforma graus Celsius em Fahrenheit e Kelvin
+
+       1 - transforma graus Celsius em Fahrenheit e Kelvin
        2 - transforma graus Fahrenheit e Celsius e Kelvin
        3 - transforma graus Kelvin e Celsius e Fahrenheit
 
@@ -156,16 +159,16 @@
 
 **OBS.: Todos os programa devem ser finalizados pelo usuario.**
 
- 1 - Escreva um programa para receber via teclado em vetores 3 int, 3 long,
+ * 1 - Escreva um programa para receber via teclado em vetores 3 int, 3 long,
     3 unsigned, 3 float e 3 double e imprima-os no video no seguinte formato:
 
-            10        20        30        40        50
-    12345678901234567890123456789012345678901234567890 
-      int                 long                unsigned
+               10        20        30        40        50
+       12345678901234567890123456789012345678901234567890 
+       int                 long                unsigned
                 float               double
-      int                 long                unsigned
+       int                 long                unsigned
                 float               double
-      int                 long                unsigned
+       int                 long                unsigned
                 float               double
 
 * 2 - Um vetor é palíndromo se ele não se altera quando as posições dos componentes
@@ -206,21 +209,21 @@
 
 **OBS.: Todos os programa devem ser finalizados pelo usuario.**
 
- 1 - Escreva um programa para receber 5 nomes, com até 7 caracteres, via teclado
+ * 1 - Escreva um programa para receber 5 nomes, com até 7 caracteres, via teclado
     e imprima-os no video no seguinte formato:
 
-            10        20        30        40        50
-    12345678901234567890123456789012345678901234567890
-      nome1                                   nome5
+               10        20        30        40        50
+       12345678901234567890123456789012345678901234567890
+       nome1                                   nome5
                 nome2               nome4
                           nome3
 
- 2 - Escreva um programa para receber 3 strings de ate 10 caracteres cada via
+ * 2 - Escreva um programa para receber 3 strings de ate 10 caracteres cada via
     teclado e imprima-as no video no seguinte formato:
     (utilize vetores multidimensionais)
 
-            10        20        30        40        50        60
-    123456789012345678901234567890123456789012345678901234567890
+               10        20        30        40        50        60
+       123456789012345678901234567890123456789012345678901234567890
         string1             string2             string3
 
 * 3 - Receba 2 string de ate 10 caracteres via teclado, compare-as mostrando como
@@ -254,7 +257,7 @@
     no video na funcao main(). Passe como informacao para a funcao a letra 
     digitada.(utilize o comando return)
 
-    vetor -> b,d,f,h,j,k,m,o,q,s,u,w,y
+    * vetor -> b,d,f,h,j,k,m,o,q,s,u,w,y
 
 * 2 - Escreva um programa que receba na funcao main() 2 valores inteiro. Escreva
     uma funcao para cada operacoes aritmeticas e passe como parametro os 2
